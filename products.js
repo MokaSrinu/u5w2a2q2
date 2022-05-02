@@ -44,5 +44,6 @@ products.forEach(function(ele,index){
     box.append(image,name,price,button1,button2);
     document.querySelector("#products").append(box);
 })
+document.querySelector("h1").innerText="you have "+products.length+" "+"products"
 }
 
